@@ -20,7 +20,7 @@ using Discord.Websocket;
 public class Program
 {
     private static DiscordSocketClient _client;
-    private static string _token = "MTI3MDcwMjUxNDAyMjUxODgwNg.GEjyKS.o1l8NjQtk6ULcNogUN9MylkDxvUIsO9Yxg2c88";
+    private static string _token = "Token";
     public static async Task Main()
     {
         _client = new DiscordSocketClient(); // init Client
