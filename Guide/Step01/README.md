@@ -58,6 +58,6 @@ Scrolle nun ein wenig nach unten und aktiviere **"Message Content Intent"**.
 ### Schritt 06
 Der Bot ist nun einsatzbereit und wir können mit unserer Solution beginnen. 
 
--> [Klicken Sie auf mich, um zur nächsten Seite zu gelangen.](/Guide/Step02/README.md)
+-> [Zum Nächsten Kapitel 02 - Aufbau der Solution & Die erste Verbindung](/Guide/Step02/README.md)
 
 -> [Zurück zur Startseite](/README.md)

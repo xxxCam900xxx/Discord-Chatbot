@@ -5,9 +5,9 @@
 ### Wie erstellt man seinen eigenen ersten Discord Bot mit C# .NET
 In dieser Anleitung erfahrst du alles was du Wissen musst, um einen eigenen Discord Bot zu bauen und wirst Schritt für Schritt durchgeführt.
 
-- [Step 01 - Einrichtung deines Bots](./Guide/Step01/README.md)
-- [Step 02 - Solution und erste Verbindung](/Guide/Step02/README.md)
-- [Step 03 - TO BE CONTINUE]()
+- [Kapitel 01 - Einrichtung deines Bots](./Guide/Step01/README.md)
+- [Kapitel 02 - Aufbau der Solution & Die erste Verbindung](/Guide/Step02/README.md)
+- [Kapitel 03 - SlashCommand einbauen](./Guide/Step03/README.md)
 
 ---
 
