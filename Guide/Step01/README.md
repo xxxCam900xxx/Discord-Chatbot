@@ -23,11 +23,11 @@ Nachdem du den Bot erstellt hast, benötigen wir den **OAuth2 Link**, um unseren
 Folgende Socpes und Permissions müssen angegeben werden:
 
 **Scopes:**
-- [ ] bot *
-- [ ] application.commands
+- bot *
+- application.commands
 
 **Bot Permissions:**
-- [ ] Administrator
+- Administrator
 
 ![](./_images/Step03_MyBotLinkgenerieren.png)
 
@@ -59,4 +59,5 @@ Scrolle nun ein wenig nach unten und aktiviere **"Message Content Intent"**.
 Der Bot ist nun einsatzbereit und wir können mit unserer Solution beginnen. 
 
 -> [Klicken Sie auf mich, um zur nächsten Seite zu gelangen.](/Guide/Step02/README.md)
+
 -> [Zurück zur Startseite](/README.md)
