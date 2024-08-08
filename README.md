@@ -8,6 +8,7 @@ In dieser Anleitung erfahrst du alles was du Wissen musst, um einen eigenen Disc
 - [Kapitel 01 - Einrichtung deines Bots](./Guide/Step01/README.md)
 - [Kapitel 02 - Aufbau der Solution & Die erste Verbindung](/Guide/Step02/README.md)
 - [Kapitel 03 - SlashCommand einbauen](./Guide/Step03/README.md)
+- [Kapitel 04 - SlashCommand antworten können](/Guide/Step04/README.md)
 
 ---
 

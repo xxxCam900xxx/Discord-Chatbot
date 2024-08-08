@@ -68,7 +68,7 @@ public class Program
 
     }
 
-    public static async Task InitCommands() {
+    private static async Task InitCommands() {
 
         var ServerID = _client.GetGuild(guildId);
 
