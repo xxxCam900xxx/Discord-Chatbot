@@ -105,6 +105,8 @@ Es gibt nur 4 Arten von **"Respond"**:
 await command.RespondAsync("I am a RespondAsync()");
 ```
 
+![](./_images/Step03_RespondAsync.png)
+
 - FollowupAsync() => Erstellen einer Folgemeldung für eine Interaktion
 
 ```C#
@@ -113,14 +115,36 @@ await command.RespondAsync("I am a RespondAsync()");
 await command.FollowupAsync("I am a FollowAsync()");
 ```
 
+![](./_images/Step03_FollowupAsync.png)
+
 - ReplyAsync() => Senden einer Nachricht an den Ursprungskanal der Interaktion
 
 ```C#
-var response = await command.FollowupAsync("Pong!", ephemeral: false, options: null, allowedMentions: null, isTTS: false);
-
-await response.ReplyAsync("This is a direct reply to the user.");
+// Habe bis jetzt nicht herausgefunden wie ich das einbaue.
+// TODO ReplyAsync()
 ```
 
 - DeleteOriginalResponseAsync() => Löschen Sie die ursprüngliche Interaktionsantwort
 
-Man kann aber auch einen **"Respond"** berarbeiten mit ``ModifyAsync(m => m.Content = "string");``
+```C#
+// Habe bis jetzt nicht herausgefunden wie ich das einbaue.
+// TODO DeleteOriginalResponseAsync()
+```
+
+Man kann aber auch einen **"Respond"** berarbeiten mit ``message.ModifyAsync(m => m.Content = "string");``
+
+```C#
+await command.RespondAsync("I am a RespondAsync()");
+var message = await command.Channel.SendMessageAsync("This is a follow-up message.");
+await message.ModifyAsync(m => m.Content = "This is a modified message");
+```
+
+![](./_images/Step03_ModifiyAsync.png)
+
+---
+
+Im nächsten Kapitel schauen wir uns an wie wir ein Discord Modal bauen.
+
+-> [Zum nächsten Kapitel 04 - PopupModal erstellen](/Guide/Step04/README.md)
+
+-> [Zur Startseite](/README.md)
