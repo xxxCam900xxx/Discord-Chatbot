@@ -145,6 +145,6 @@ await message.ModifyAsync(m => m.Content = "This is a modified message");
 
 Im nächsten Kapitel schauen wir uns an wie wir ein Discord Modal bauen.
 
--> [Zum nächsten Kapitel 04 - PopupModal erstellen](/Guide/Step04/README.md)
+-> [Zum nächsten Kapitel 05 - PopupModal erstellen](/Guide/Step05/README.md)
 
 -> [Zur Startseite](/README.md)
