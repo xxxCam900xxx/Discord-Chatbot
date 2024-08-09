@@ -9,6 +9,7 @@ In dieser Anleitung erfahrst du alles was du Wissen musst, um einen eigenen Disc
 - [Kapitel 02 - Aufbau der Solution & Die erste Verbindung](/Guide/Step02/README.md)
 - [Kapitel 03 - SlashCommand einbauen](./Guide/Step03/README.md)
 - [Kapitel 04 - SlashCommand antworten können](/Guide/Step04/README.md)
+- [Kapitel 05 - PopupModal erstellen](/Guide/Step05/README.md)
 
 ---
 
